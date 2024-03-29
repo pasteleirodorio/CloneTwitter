@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+}
+
+:root {
+    --corfundo:#23A4F2;
+    --corbutton:#50B7F5;
+    --contornobutton: #80CBF7;
+    --backgroundcolor: #EFF8FE;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+   
+img {
+    width: 43px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+#usuario {
+    margin-bottom: 15px;
+    height: 40px;
+    box-shadow: 3px 3px  rgba(3, 3, 3, 0.781);
+    background-color: #EFF8FE;
+    color: #80CBF7;
+    
+}
+
+#senha {
+    margin-bottom: 15px;
+    height: 40px;
+    box-shadow: 3px 3px  rgba(3, 3, 3, 0.781);
+    background-color: #EFF8FE;
+    color: #80CBF7;
+}
+
+#usuario:hover {
+    box-shadow: 3px 3px var(--corbutton);
+    border-top: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 2px solid var(--corbutton);
+    font-weight: 900;
+}
+
+#senha:hover {
+    box-shadow: 3px 3px var(--corbutton);
+    border-top: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 2px solid var(--corbutton);
+    font-weight: 900;
+}
+
+
+p {
+    font-size: 13px;
+    color: var(--corbutton);
+    cursor: pointer;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+#texto-inscrevase {
+    position: relative;
+    top: -18px;
+    right: -94px;
+}
+
+#texto-esqueceu-senha {
+    position: relative;
+    right: 103px;
+}
+
+#enviar {
+    width: 292px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: var(--corbutton);
+    border: 0px solid transparent;
+    cursor: pointer;
+}
+
